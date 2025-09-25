@@ -13,7 +13,6 @@
   box-shadow: 0px 4px 10px 0px #9c9c9c14;
   border-bottom: 0.5px solid white;
 }
-/* زرار المود (هلال/شمس) */
 .mode-toggle {
   margin-left: 10px;
   background: #f1f1f1;
@@ -27,8 +26,6 @@
 .mode-toggle:hover {
   background: #ddd;
 }
-
-/* Dark Mode */
 body.dark-mode {
   background-color: #1e1e1e;
   color: #ffffff;
@@ -49,10 +46,8 @@ body.dark-mode footer {
 body.dark-mode .top {
   background: #444;
 }
-/* Dark Mode Styling for Sections */
 body.dark-mode .section-2,
 body.dark-mode .section-4,
-body.dark-mode .section-5,
 body.dark-mode footer {
   background-color: #2b2b2b;
   color: #f1f1f1;
@@ -64,7 +59,7 @@ body.dark-mode .review {
 }
 
 body.dark-mode .photo img {
-  filter: brightness(0.8);
+  filter: brightness(0.7);
 }
 
 body.dark-mode .btn,
